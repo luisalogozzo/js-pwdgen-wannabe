@@ -7,6 +7,6 @@ console.log(CognomeUtente);
 var ColorePreferito = prompt('Qual è il tuo colore preferito?');
 console.log(ColorePreferito);
 
-document.getElementById('nome').innerHTML = NomeUtente;
+document.getElementById('nome').innerHTML = NomeUtente + '!';
 
-document.getElementById('pass').innerHTML = NomeUtente + CognomeUtente + ColorePreferito + '19';
+document.getElementById('pass').innerHTML =   NomeUtente + CognomeUtente + ColorePreferito + '19';

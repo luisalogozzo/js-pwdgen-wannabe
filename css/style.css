@@ -1,0 +1,21 @@
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,229,1) 100%);
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+div {
+  padding: 40px;
+  background-color: lime;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
